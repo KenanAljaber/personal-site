@@ -1,6 +1,6 @@
 import { useState } from "react";
 import LifeCounts from "./LifeCounts";
-import "../../datePicker.css"
+import "../../styles/datePicker.css"
 
 const DatePicker = ({ lableText }) => {
     const [year, setYear] = useState(0);

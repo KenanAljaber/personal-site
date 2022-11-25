@@ -1,4 +1,4 @@
-import "../../datePicker.css"
+import "../../styles/datePicker.css"
 const Lifecounts = ({text,number}) => {
     return (  
         <div className="counter">
