@@ -1,5 +1,5 @@
 import DatePicker from "./DatePicker";
-import "../../datePicker.css"
+import "../../styles/datePicker.css"
 
 const DashBoard = ({lableText}) => {
     return (
