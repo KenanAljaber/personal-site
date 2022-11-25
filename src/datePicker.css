@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat&display=swap');
+.dashboard{
+    background: #494849;
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 10px;
+    display: inline-flex;
+    font-family:Montserrat ;
+    font-size: 1.5rem;
+
+  }
+  .datePicker{
+    background-color: #D9D8DA;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+  }
+  .datePicker-lable{
+    background-color: #D9D8DA;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .resultContainer{
+    display: flex;
+    place-content: center;
+    padding: 10px;
+  }
+  .counter{
+    margin: 15px;
+    background: #D9D8DA;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .imcCalculatorPage-Container{
+    text-align-last: center;
+  }
+
+  .ImcCalculatorPage-desc{
+    font-weight: 500;
+    white-space: pre-wrap;
+    max-width: 500px;
+    margin: 0 auto;
+    color: #6d3900;
+    padding-top: 50px;
+
+  }
