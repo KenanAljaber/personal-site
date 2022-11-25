@@ -5,7 +5,7 @@ import About from "./Pages/About";
 import MyNavBar from "./Components/MyNavBar";
 import Footer from "./Components/Footer";
 import Welcome from "./Pages/Welcome";
-
+import ImcCalculatorPage from "./Pages/ImcCalculatorPage";
 
 
 
@@ -19,7 +19,7 @@ function App() {
       <MyNavBar/>
       <Routes>  
         <Route path="/" element={<Welcome/> }/>
-        <Route path="/imc-calculator" element={<Welcome/> }/>
+        <Route path="/imc-calculator" element={<ImcCalculatorPage/> }/>
         <Route path="/" element={<Welcome/> }/>
         <Route path="/" element={<Welcome/> }/>
         <Route path="/" element={<Welcome/> }/>
