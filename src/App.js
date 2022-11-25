@@ -7,6 +7,7 @@ import Footer from "./Components/Footer";
 import Welcome from "./Pages/Welcome";
 import ImcCalculatorPage from "./Pages/ImcCalculatorPage";
 import AgeCalculator from "./Pages/AgeCalculator";
+import Clock from "./Components/ClockComponent/Colock";
 
 
 
@@ -22,7 +23,7 @@ function App() {
         <Route path="/" element={<Welcome/> }/>
         <Route path="/imc-calculator" element={<ImcCalculatorPage/> }/>
         <Route path="/age-calculator" element={<AgeCalculator/> }/>
-        <Route path="/" element={<Welcome/> }/>
+        <Route path="/clock" element={<Clock/> }/>
         <Route path="/" element={<Welcome/> }/>
         <Route path="/" element={<Welcome/> }/>
         </Routes>
