@@ -49,4 +49,5 @@ const Result = ({ weight, height }) => {
     );
 }
 
+
 export default Result;

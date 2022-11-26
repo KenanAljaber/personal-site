@@ -1,0 +1,51 @@
+.contact-container{
+    text-align: center;
+}
+
+.contact-formContainer{
+    width: 600px;
+    border: solid;
+    border-width: thin;
+    margin: 0 auto;
+    padding: 20px;
+}
+.contact-formContainer h1{
+    text-align: start;
+    padding: 10px;
+    margin-left: 40px;
+}
+.contact-form-input-container{
+    text-align: center;
+    padding: 10px;
+    margin-left: 30px;
+    width: 430px;
+}
+
+.contact-form-input-container input{
+    
+    margin: 10px;
+}
+.input-name{
+    padding: 10px;
+}
+.input-message{
+    width: 88%;
+    padding: 10px 10px 100px 20px;
+   
+}
+.input-email{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+button{
+    padding: 10px;
+    background-color:#FE9111 ;
+    color: black;
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px;
+    margin: 10px;
+  }
