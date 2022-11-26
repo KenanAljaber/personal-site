@@ -15,7 +15,7 @@ const MyNavBar = () => {
           <li  ><NavLink style={textStyle} to="/age-calculator">Age Calculator</NavLink></li>
         <li className="MyNavBar-kruger"><img src={logo}/>Kruger Star</li>
           <li ><NavLink style={textStyle} to="/clock">My Clock</NavLink></li>
-          <li>About Me</li>
+          <li><NavLink style={textStyle} to="/about-me">About Me</NavLink></li>
           <li>Contact</li>
   
 

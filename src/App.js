@@ -8,6 +8,7 @@ import Welcome from "./Pages/Welcome";
 import ImcCalculatorPage from "./Pages/ImcCalculatorPage";
 import AgeCalculator from "./Pages/AgeCalculator";
 import Clock from "./Components/ClockComponent/Colock";
+import AboutMe from "./Pages/AboutMe";
 
 
 
@@ -24,7 +25,7 @@ function App() {
         <Route path="/imc-calculator" element={<ImcCalculatorPage/> }/>
         <Route path="/age-calculator" element={<AgeCalculator/> }/>
         <Route path="/clock" element={<Clock/> }/>
-        <Route path="/" element={<Welcome/> }/>
+        <Route path="/about-me" element={<AboutMe/> }/>
         <Route path="/" element={<Welcome/> }/>
         </Routes>
       </Router>
