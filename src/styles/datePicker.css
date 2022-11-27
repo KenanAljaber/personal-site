@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat&display=swap');
+.dashboard{
+    background: #b2b1b2;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: inline-flex;
+    font-family:Montserrat ;
+    font-size: 1.5rem;
+
+  }
+ .ageCalculatorPage-Container h1{
+    margin-top: 50px;
+    color: #FE9111;
+  }
+  .datePicker{
+    background-color: #D9D8DA;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+  }
+  .datePicker-lable{
+    background-color: #D9D8DA;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .resultContainer{
+    display: flex;
+    place-content: center;
+    padding: 10px;
+  }
+  .counter{
+    margin: 15px;
+    background: #D9D8DA;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  
+  .ageCalculatorPage-desc{
+    font-weight: 500;
+    white-space: pre-wrap;
+    max-width: 500px;
+    margin: 0 auto;
+    color: #6d3900;
+    padding-top: 50px;
+
+  }
+  .ageCalculatorPage-Container{
+    text-align-last: center;
+  }

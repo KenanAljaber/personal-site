@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat&display=swap');
+
+body {
+  margin: 0;
+  font-family: Montserrat;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar{
+  
+  display: flex;
+  padding: 50px 50px 20px 50px;
+  list-style: none;
+  text-align: center;
+}
+
+.navbar li{
+  color:black;
+  font-size:0.8rem;
+  font-weight: bold;
+  margin-right: 10px;
+  width: 25%;
+}
+
+.navbar img{
+  width: 50px;
+}
+
+ li:hover{
+  text-decoration: underline;
+}
+
+.line{
+  height: 1px;
+  width: 85%;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.welcomeTxt-container{
+  text-align: center;
+  padding: 20px;
+  margin-top: 10%;
+}
+
+.welcome-p{
+  font-size: 1.6rem;
+    width: 600px;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+.welcome-welcomeText{
+  font-weight: 400;
+  color:#FE9111;
+}
+
+.footer-container{
+  width: 100%;
+  padding: 10px 0 10px 0px;
+  margin: 0 auto;
+  text-align-last: center;
+}
+
+.footer-container h6{
+  font-weight: 500;
+}
+.MyNavBar-kruger{
+  font-family: Comfortaa;
+  margin: 0 auto;
+  margin-top: -30px;
+}
+
+
