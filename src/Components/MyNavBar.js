@@ -1,7 +1,7 @@
 
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
-import logo from "../assets/logo.jpg";
+import logo from "../assets/logo.png";
 import openNavImg from "../assets/hamburger.png"
 import close from "../assets/close.png"
 const textStyle = {

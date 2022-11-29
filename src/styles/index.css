@@ -53,19 +53,21 @@ code {
 .welcomeTxt-container{
   text-align: center;
   padding: 20px;
-  margin-top: 10%;
+  margin-top: 10px;
 }
 
 .welcome-p{
   font-size: 1.6rem;
-    width: 600px;
-    margin: 0 auto;
     font-weight: 300;
+    margin: 0 75px;
+    color: #706767;
+    text-align: center;
 }
 
 .welcome-welcomeText{
-  font-weight: 400;
-  color:var(--orangeColor);
+  color: var(--orangeColor);
+  font-size: clamp(2.5rem,3rem,4rem);
+  margin-bottom: 5rem;
 }
 
 .footer-container{
