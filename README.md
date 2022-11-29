@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live demo link](https://kruger-star-playground-kj.netlify.app/)
+<a href="https://kruger-star-playground-kj.netlify.app/">Live Demo</a>
 
 
 ## Run it locally
