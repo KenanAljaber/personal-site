@@ -15,15 +15,24 @@
     margin-left: 40px;
 }
 .contact-form-input-container{
-    text-align: center;
+    text-align: start;
     padding: 10px;
     margin-left: 30px;
     width: 430px;
 }
 
 .contact-form-input-container input{
-    
+
+    border-radius: 10px;
+    border-width: 1px;
+
     margin: 10px;
+    border-color: #FE9111;
+    border-top-style: solid;
+    box-shadow: 4px -1px 7px 0px rgb(239 157 6);
+
+
+
 }
 .input-name{
     padding: 10px;
@@ -31,6 +40,7 @@
 .input-message{
     width: 88%;
     padding: 10px 10px 100px 20px;
+    
    
 }
 .input-email{
@@ -48,4 +58,19 @@ button{
     border-style: none;
     padding: 10px;
     margin: 10px;
+  }
+
+  @media (max-width: 700px){
+
+    .contact-form-input-container{
+        max-width: 300px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .contact-formContainer{
+        max-width: 300px;
+    }
+    .contact-container{
+        margin-top: 60px;
+    }
   }
