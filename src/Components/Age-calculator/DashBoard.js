@@ -3,7 +3,7 @@ import "../../styles/datePicker.css"
 
 const DashBoard = ({lableText}) => {
     return (
-    <div className="dashboard">
+    <div className="Agedashboard">
         <DatePicker lableText={lableText}/>
 
     </div>  );

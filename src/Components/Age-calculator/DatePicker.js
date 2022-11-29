@@ -21,7 +21,7 @@ const DatePicker = ({ lableText }) => {
 
         let days = 0;
         let months = 0;
-        //get years by subtracting current year from the picked pone 
+        //get years by subtracting current year from the picked one 
         let years = today.getFullYear() - pickedDate[0];
         //if the current month is smaller than the picked month then then month is (totalMonths-(Math.abs(pickedMonth-currentMonth))) 
         //if not then we only subtract the picked months from current months

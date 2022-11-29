@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat&display=swap');
+:root{
+  --orangeColor:#FE9111;
+}
 
 body {
   margin: 0;
@@ -14,9 +17,10 @@ code {
 .navbar{
   
   display: flex;
-  padding: 50px 50px 20px 50px;
+  padding: 50px 50px 20px 0px;
   list-style: none;
   text-align: center;
+  width: 100%;
 }
 
 .navbar li{
@@ -27,12 +31,16 @@ code {
   width: 25%;
 }
 
-.navbar img{
+.MyNavBar-kruger img{
   width: 50px;
+}
+.navBar-open{
+  display: none;
 }
 
  li:hover{
   text-decoration: underline;
+  color:var(--orangeColor);
 }
 
 .line{
@@ -57,7 +65,7 @@ code {
 
 .welcome-welcomeText{
   font-weight: 400;
-  color:#FE9111;
+  color:var(--orangeColor);
 }
 
 .footer-container{
@@ -65,6 +73,8 @@ code {
   padding: 10px 0 10px 0px;
   margin: 0 auto;
   text-align-last: center;
+  position: fixed;
+  bottom: 0;
 }
 
 .footer-container h6{
@@ -74,6 +84,86 @@ code {
   font-family: Comfortaa;
   margin: 0 auto;
   margin-top: -30px;
+ 
+}
+.MyNavBar-kruger span{
+  margin: 10px;
+}
+.topNavImg{
+  display: none;
 }
 
 
+@media (max-width: 700px){
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0px;
+    z-index: 100;;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 50px;
+    background-image: linear-gradient(white,white, orange);
+    transition: 0.5s;
+    text-align: center;
+    opacity: 0.9;
+
+    
+  }
+  .navBar-open{
+    display: block;
+    position: fixed;
+    top: 25;
+    left: 25;
+    z-index: 200;
+    
+  }
+  .navBar-open-img{
+   width:20px;
+    left: 20px;
+    top: 20px;
+   position: fixed;
+  }
+  .line{
+    display: none;
+  }
+  .navbar li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: clamp(0.5rem,1.1rem,1.5rem);
+    width: 100%;
+  }
+ 
+  .MyNavBar-kruger{
+    display: none;
+    
+  }
+  .welcome-welcomeText{
+    font-size: clamp(1rem,1.8rem,2rem);
+  }
+  .welcome-p{
+    width: 80%;
+    text-align: start;
+    padding-left: 20px;
+    padding-right: 2px;
+    font-size: clamp(0.8rem,1.1rem,1.5rem);
+
+  }
+  .topNavImg{
+    display: block;
+    
+  }
+  .topNavImg img{
+    width: 100px;
+  }
+}
+
+@media (min-width: 701px){
+  .navbar{
+    width: 100%;
+  }
+
+}

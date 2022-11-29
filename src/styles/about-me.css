@@ -5,18 +5,40 @@
     margin-top: 50px;
 }
 .aboutMe-Container img{
-    width: 300px;
-    padding: 20px;
+    width: 250px;
     margin-left: 50px;
     border-radius: 40px;
 }
 .aboutMe-disc-container{
     align-self: center;
+    padding: 10px;
 }
 .aboutMe-disc-container h1{
     text-align: center;
 }
 .aboutMe-disc-container p{
-    width: 600px;
+    width: 400px;
 
+}
+
+@media (max-width: 700px) {
+.aboutMe-Container{
+    flex-direction:column;
+}
+
+    .aboutMe-Container img{
+
+        margin-left: 0px;
+        border-radius: 40px;
+        align-self: center;
+        box-shadow: 8px 6px 10px 4px rgb(30 30 90 / 50%);
+    }
+    .aboutMe-disc-container p{
+        width: clamp(300px,320px,450px);
+        font-size: clamp(0.8rem,1.1rem,1.5rem);
+        padding: 10px;
+        text-align: center;
+    }
+    
+    
 }
