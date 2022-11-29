@@ -19,7 +19,9 @@ function App() {
 
       <Router>
         <MyNavBar />
+        
         <Routes>
+          
           <Route path="/" element={<Welcome />} />
           <Route path="/imc-calculator" element={<ImcCalculatorPage />} />
           <Route path="/age-calculator" element={<AgeCalculator />} />
@@ -29,6 +31,7 @@ function App() {
         </Routes>
       </Router>
       <Footer />
+      
 
     </div>
   );

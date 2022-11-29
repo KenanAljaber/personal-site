@@ -19,6 +19,7 @@
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
+    border-style: none;
     font-size: 1.5rem;
   }
   .datePicker-lable{
@@ -61,5 +62,8 @@
     }
     .ageCalculatorPage-desc{
       max-width: 300px;
+    }
+    .datePicker{
+      font-size: clamp(0.6rem,0.8rem,1rem);
     }
   }
